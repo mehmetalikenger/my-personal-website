@@ -238,7 +238,8 @@ main {
   }
 
   .mail a {
-    transform: rotate(90deg);
+    writing-mode: vertical-rl;
+    width: 100%;
   }
 
   .linkedin:hover {
