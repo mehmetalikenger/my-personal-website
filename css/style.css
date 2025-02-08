@@ -1,0 +1,388 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  background-color: #111111;
+  font-family: "Be Vietnam Pro", sans-serif;
+  background-image: url("../images/bg5.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+main {
+  width: 100%;
+  padding: 0 30px;
+  padding-bottom: 100px;
+}
+
+.lang {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.lang-btn {
+  background-color: #33302d;
+  display: flex;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
+
+.lang-btn p {
+  color: #fff;
+  cursor: pointer;
+}
+
+.lang-btn-line {
+  width: 2px;
+  margin: 0 10px;
+  background-color: #292724;
+  border-radius: 2px;
+}
+
+.lang-btn a {
+  color: #787575;
+  text-decoration: none;
+}
+
+.info-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.info-container h1 {
+  color: #fff;
+}
+
+.info-container .title {
+  color: #fff;
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+
+.info-container p {
+  font-size: 0.9rem;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.links-container {
+  margin: 0 auto;
+  margin-top: 60px;
+  width: 80%;
+}
+
+.link-btn {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.link-btn:not(:first-child) {
+  margin-top: 20px;
+}
+
+.link-btn a {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 0;
+}
+
+.link-btn a img {
+  width: 40px;
+}
+
+.linkedin {
+  background-color: #0a66c2;
+}
+
+.github {
+  background-color: #24292e;
+}
+
+.medium {
+  background-color: #ffc118;
+}
+
+.youtube {
+  background-color: #ff0000;
+}
+
+.hackerrank {
+  background-color: #0d141e;
+}
+
+.mail {
+  background-color: #f3f3f3;
+  height: 50px;
+  border: 2px solid #000000;
+  cursor: pointer;
+}
+
+.mail a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+@media only screen and (min-width: 375px) {
+  .mail a {
+    font-size: 0.9rem;
+  }
+}
+
+@media only screen and (min-width: 412px) {
+  .mail a {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  main {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .lang {
+    margin-top: 100px;
+  }
+
+  .info-container {
+    margin-top: 100px;
+  }
+
+  .info-container h1 {
+    font-size: 2.5rem;
+  }
+
+  .info-container .title {
+    font-size: 1.5rem;
+  }
+
+  .links-container {
+    width: 70%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  main {
+    width: 60%;
+  }
+
+  .lang {
+    margin-top: 120px;
+  }
+
+  .info-container {
+    margin-top: 120px;
+  }
+
+  .info-container h1 {
+    font-size: 2.7rem;
+  }
+
+  .info-container .title {
+    font-size: 1.7rem;
+  }
+
+  .links-container {
+    width: 65%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .lang {
+    margin-top: 100px;
+  }
+
+  .info-container {
+    margin-top: 100px;
+  }
+
+  .links-container {
+    width: 90%;
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    margin-top: 100px;
+  }
+
+  .link-btn {
+    width: 12%;
+    margin-top: 0 !important;
+  }
+
+  .link-btn a img {
+    width: 52px;
+  }
+
+  .mail {
+    height: auto;
+  }
+
+  .mail a {
+    transform: rotate(90deg);
+  }
+
+  .linkedin:hover {
+    background-color: #126fcc;
+  }
+
+  .github:hover {
+    background-color: #282e33;
+  }
+
+  .medium:hover {
+    background-color: #fdc529;
+  }
+
+  .youtube:hover {
+    background-color: #fd1515;
+  }
+
+  .hackerrank:hover {
+    background-color: #101720;
+  }
+
+  .mail:hover {
+    background-color: #ffffff;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .links-container {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 2250px) {
+  .lang {
+    margin-top: 150px;
+  }
+
+  .lang-btn {
+    padding: 15px 30px;
+  }
+
+  .lang-btn p {
+    font-size: 1.2rem;
+  }
+
+  .lang-btn-line {
+    width: 3px;
+    margin: 0 15px;
+    border-radius: 3px;
+  }
+
+  .lang-btn a {
+    font-size: 1.2rem;
+  }
+
+  .info-container {
+    margin-top: 150px;
+  }
+
+  .info-container h1 {
+    font-size: 3.5rem;
+  }
+
+  .info-container .title {
+    font-size: 2rem;
+  }
+
+  .info-container p {
+    font-size: 1.2rem;
+  }
+
+  .links-container {
+    width: 70%;
+    margin-top: 120px;
+  }
+
+  .link-btn {
+    width: 10%;
+  }
+
+  .link-btn a img {
+    width: 60px;
+  }
+
+  .mail a {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (min-width: 3200px) {
+  .lang {
+    margin-top: 200px;
+  }
+
+  .lang-btn {
+    padding: 20px 35px;
+  }
+
+  .lang-btn p {
+    font-size: 1.3rem;
+  }
+
+  .lang-btn-line {
+    width: 3px;
+    margin: 0 15px;
+    border-radius: 3px;
+  }
+
+  .lang-btn a {
+    font-size: 1.3rem;
+  }
+
+  .info-container {
+    margin-top: 180px;
+  }
+
+  .info-container h1 {
+    font-size: 4.5rem;
+  }
+
+  .info-container .title {
+    font-size: 3rem;
+  }
+
+  .info-container p {
+    font-size: 1.4rem;
+  }
+
+  .links-container {
+    width: 70%;
+    margin-top: 150px;
+    height: 400px;
+  }
+
+  .link-btn {
+    width: 10%;
+  }
+
+  .link-btn a img {
+    width: 70px;
+  }
+
+  .mail a {
+    font-size: 1.3rem;
+  }
+}
