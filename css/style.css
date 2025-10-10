@@ -6,9 +6,6 @@
   box-sizing: border-box;
 }
 
-html, body {
-}
-
 html {
   color-scheme: dark;
 }
@@ -180,6 +177,13 @@ main {
 
   .links-container {
     width: 70%;
+  }
+}
+
+@media only screen and (max-width: 1024px){
+
+  html, body {
+    height: 100%;
   }
 }
 
