@@ -1,6 +1,5 @@
 User-agent: *
 Allow: /
-Disallow: /tr/
 
 Sitemap: https://mehmetalikenger.com/sitemap.xml
 Sitemap: https://www.mehmetalikenger.com/sitemap.xml
